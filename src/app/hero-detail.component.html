@@ -1,0 +1,6 @@
+<div class="alert alert-info" *ngIf="hero">
+	<h2>Hero Details for:</h2>
+	<h3>{{hero.name}}</h3>
+	<label>ID: {{hero.id}}</label><br />
+	<input [(ngModel)]="hero.name" placeholder="name" />
+</div>
